@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip;	public class Cave extends MovieClip	{		public var caveMC:CaveMC;				public function Cave()		{			// constructor code			caveMC = new CaveMC();					}	}}

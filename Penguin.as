@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;		public class Penguin extends MovieClip {				public var penguinMC:PenguinMC;		public var destination:uint;		public var alive:Boolean = true;				public function Penguin() {			// constructor code			penguinMC = new PenguinMC();			penguinMC.x = this.x;			penguinMC.y = this.y;		}	}	}
